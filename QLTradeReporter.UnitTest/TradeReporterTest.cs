@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reactive;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using QLTradeReporter.Core.Events;
-using QLTradeReporter.Core.FileDefinitions;
-using QLTradeReporter.Core.Interfaces;
-using QLTradeReporter.Core.Models;
-using QLTradeReporter.Core.Processor;
-using QLTradeReporter.Core.Services;
+using PostTradeMonitor.Core.Events;
+using PostTradeMonitor.Core.FileDefinitions;
+using PostTradeMonitor.Core.Interfaces;
+using PostTradeMonitor.Core.Models;
+using PostTradeMonitor.Core.Processor;
+using PostTradeMonitor.Core.Services;
 
-namespace QLTradeReporter.UnitTest
+namespace PostTradeMonitor.UnitTest
 {
     [TestClass]
     public class TradeReporterTest

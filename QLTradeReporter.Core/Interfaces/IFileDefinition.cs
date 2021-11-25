@@ -10,7 +10,7 @@ namespace QLTradeReporter.Core.Interfaces
 {
     public interface IDelimitedFileDefinition
     {
-        char[] Delimiters { get;  }
+        char Delimiter { get;  }
         FieldSchemaDictionary FieldSchemaDictionary { get; }
     }
 }

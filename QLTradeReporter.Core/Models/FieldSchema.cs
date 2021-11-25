@@ -23,6 +23,8 @@ namespace QLTradeReporter.Core.Models
             FieldType = fieldType;
         }
 
+        
+
         public int FieldPosition { get; private set; }
 
         public string FieldName { get; private set; }

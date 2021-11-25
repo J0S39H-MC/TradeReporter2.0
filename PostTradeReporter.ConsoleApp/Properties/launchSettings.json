@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PostTradeReporter.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\GitRepo\\TradeReporter2.0\\input.csv  C:\\GitRepo\\TradeReporter2.0\\Output"
+    }
+  }
+}

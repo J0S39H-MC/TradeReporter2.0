@@ -9,13 +9,13 @@ namespace QLTradeReporter.Core.Processor
     {
         private readonly ITradeValidator validator;
         private readonly ITradeMapper tradeMapper;
-        private readonly char[] delimiters;
+        private readonly char delimiters;
 
         public TradeParser(ITradeValidator tradeValidator, ITradeMapper tradeMapper, IDelimitedFileDefinition fileDefinition)
         {           
             this.validator = tradeValidator;
             this.tradeMapper = tradeMapper;
-            this.delimiters = fileDefinition.Delimiters;
+            this.delimiters = fileDefinition.Delimiter;
         }
 
         public bool TryParseTrade(string line, out Trade trade)
